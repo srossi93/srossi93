@@ -26,9 +26,10 @@ jobs:
           plugin_achievements_threshold: B
           plugin_habits: yes
           plugin_habits_charts_type: classic
-          plugin_habits_days: 128
+          plugin_habits_days: 30
           plugin_habits_facts: yes
-          plugin_habits_from: 200
+          plugin_habits_from: 1000
+          plugin_habits_trim: yes
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_isocalendar: no
