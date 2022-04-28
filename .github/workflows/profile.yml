@@ -16,7 +16,7 @@ jobs:
           # Options
           user: srossi93
           template: classic
-          base: header, activity
+          base: header 
           config_display: large
 #           config_display: columns
           config_timezone: Europe/Paris
