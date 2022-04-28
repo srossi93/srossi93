@@ -24,5 +24,9 @@ jobs:
           # Options
           user: srossi93
           template: classic
-          base: header
+          base: header, activity, community
           config_timezone: Europe/Paris
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
