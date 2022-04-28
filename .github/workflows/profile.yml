@@ -17,6 +17,7 @@ jobs:
           user: srossi93
           template: classic
           base: header, activity
+          config_display: columns
           config_timezone: Europe/Paris
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -24,7 +25,7 @@ jobs:
           plugin_achievements_threshold: C
           plugin_introduction: yes
           plugin_introduction_title: yes
-          plugin_isocalendar: yes
+          plugin_isocalendar: no
           plugin_isocalendar_duration: full-year
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
