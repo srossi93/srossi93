@@ -16,7 +16,7 @@ jobs:
           # Options
           user: srossi93
           template: classic
-          base: header, activity, community
+          base: header, activity
           config_timezone: Europe/Paris
           config_display: columns
           plugin_achievements: yes
